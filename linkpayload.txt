@@ -1,0 +1,22 @@
+REM Open a new terminal window
+GUI r
+STRING gnome-terminal
+ENTER
+REM Wait a bit for the terminal to open
+DELAY 500
+REM Type a command
+STRING echo "    JJJJ"
+ENTER
+STRING echo "       J"
+ENTER
+STRING echo "       J"
+ENTER
+STRING echo "       J"
+ENTER
+STRING echo " J     J"
+ENTER
+STRING echo " J     J"
+ENTER
+STRING echo "  JJJJJ "
+ENTER
+ENTER
