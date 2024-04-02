@@ -1,0 +1,43 @@
+REM Open Run dialog
+GUI r
+DELAY 100
+
+REM Type in PowerShell command to ping your webhook
+STRING powershell -Command "Invoke-WebRequest -Uri 'http://jasongardner.us/4.html'"
+ENTER
+DELAY 1000
+
+REM Close PowerShell window
+ALT F4
+DELAY 100
+
+REM Open Notepad to display ASCII art
+GUI r
+DELAY 100
+STRING notepad
+ENTER
+DELAY 100
+
+REM Display fun ASCII text
+STRING "Here's some fun ASCII Art!"
+ENTER
+STRING "         ___________"
+ENTER
+STRING "        '._==_==_=_.'"
+ENTER
+STRING "        .-\:      /-."
+ENTER
+STRING "       | (|:.     |) |"
+ENTER
+STRING "        '-|:.     |-'"
+ENTER
+STRING "          \::.    /"
+ENTER
+STRING "           '::. .'"
+ENTER
+STRING "             ) ("
+ENTER
+STRING "           _.' '._"
+ENTER
+STRING "          '-------'"
+ENTER
