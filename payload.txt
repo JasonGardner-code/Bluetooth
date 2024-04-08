@@ -1,0 +1,15 @@
+REM Ensure the browser is the active window
+ALT TAB
+DELAY 500
+
+REM Open a new tab in the browser
+CTRL n
+DELAY 1000
+
+REM Navigate to the address bar
+CTRL l
+DELAY 500
+
+REM Type the Rick Roll video URL
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ
+ENTER
